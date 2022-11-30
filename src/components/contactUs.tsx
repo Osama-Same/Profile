@@ -10,7 +10,7 @@ export function ContactUSPage() {
             <Divider textAlign="left">Contact Me</Divider>
         </Typography>
         <div className="row">
-            <div className="col-md-4 pt-3 pb-3">
+            <div className="col-md-5 pt-3 pb-3">
                 <Card sx={{ mb: 2, mt: 2 }}>
                     <CardActionArea href={`mailto:${'osama.moh.salem@gmail.com'}?subject=${""}&body=${""}`}>
                         <CardContent sx={{ padding: 0 }}>
