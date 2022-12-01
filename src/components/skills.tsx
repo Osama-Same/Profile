@@ -114,7 +114,7 @@ export function SkillsPage() {
         <div className="row row-cols-3 row-cols-lg-6 g-2 g-lg-3">
             {arrSkills.map((e) => {
                 return <div className="col-4 pt-3 pb-3" key={2}>
-                    <Button color="success" startIcon={<img src={e.icon} height={30} width={30} />}>
+                    <Button color="success" startIcon={<img src={e.icon} height={30} width={30} alt={""}/>}>
                         {e.name}
                     </Button>
                 </div>

@@ -1,10 +1,8 @@
 import {
   Avatar,
   Card,
-  CardActionArea,
   CardContent,
   CardHeader,
-  CardMedia,
   Divider,
 } from "@mui/material";
 import Typography from "@mui/material/Typography";
